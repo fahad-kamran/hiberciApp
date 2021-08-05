@@ -1,0 +1,52 @@
+.ProfileSection{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(154, 154, 225);
+    color: #4a44eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProfileImage{
+   width: 170px;
+   height: 170px;
+   margin: auto;
+}
+.Avatar{
+    border: 10px solid rgb(176, 176, 230);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.EditButton{
+    margin: 20px 0px;
+   width: 170px;
+   height: 50px;
+   border-radius: 25px;
+   background-color: #4a44eb;
+   border: 2px solid #4a44eb;
+   color: #fff;
+   font-size: 20px;
+}
+.EditButton:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #4a44eb;
+}
+form {
+    border: 2px solid #4a44eb;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+tr{
+    border: 1px solid black;
+}
+.PropertyName{
+    width: 20%;
+}
+.PropertyValue{
+    width: 80%;
+}
+.PropertyValue input{
+    width: 100%;
+}
